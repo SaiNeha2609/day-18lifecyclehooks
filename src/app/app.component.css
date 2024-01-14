@@ -1,0 +1,70 @@
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f1b997;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(103, 24, 75, 0.1);
+   
+    /* Add the following styles to make the links appear on the same line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  a {
+    text-decoration: none;
+    color: #130d04;
+    font-size: 18px;
+    margin: 0 10px; /* Add margin for spacing */
+    transition: color 0.3s;
+  }
+   
+  a:hover {
+    color: #84b7ed;
+  }
+   
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #871764;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+   display: block;
+    /* Center the button */
+    margin: auto;
+  }
+   
+  button:hover {
+    background-color: #c66020;
+  }
+   
+  .extra-content {
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text in the extra content section */
+  }
+   
+  .extra-content h2 {
+    color: #333;
+  }
+   
+  .extra-content p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(161, 93, 93);
+  }
+   
+  /* Center the "Welcome to the home page" text */
+  .extra-content p {
+    margin: 0; /* Remove margin for text within .extra-content */
+  }
